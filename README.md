@@ -91,8 +91,8 @@ Music Project/
 
 ## Información adicional
 
-- **Autor:** *(escribe aquí tu nombre)*
-- **Curso:** *(escribe aquí el nombre del curso)*
+- **Autor:** *Erigh Olmeda Maldonado*
+- **Curso:** *COMP2051.WEB DEV CLIENT-SIDE(FRONT-END)*
 - **Datos de las sugerencias:** se almacenan únicamente en el `localStorage` del navegador. Si se borra el almacenamiento del navegador, las sugerencias se pierden.
 - **Recursos usados:** W3Schools (tutoriales y ayuda), YouTube y YouTube Music (canciones y videos), Sceneform (conversión de audio a MP3) y Album Artwork Finder (portadas de álbumes). Los enlaces completos, incluidos los videos de cada canción, están en la página `reference.html`.
 - **Derechos de autor:** las imágenes, portadas y fragmentos de audio pertenecen a sus respectivos artistas y sellos discográficos. Se usan únicamente con fines educativos, como parte de un proyecto de curso, y sin fines de lucro.
