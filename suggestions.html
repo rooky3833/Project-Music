@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suggest an Artist | Tunely</title>
+    <link rel="icon" type="image/png" href="img/tunely-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="info-page">
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="artist.html">Artists</a>
+        <a href="about.html">About Tunely</a>
+        <a href="reference.html">References</a>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="info-panel suggestion-panel"
+        aria-labelledby="suggestions-heading"
+      >
+        <p class="eyebrow">Help grow the collection</p>
+        <h1 id="suggestions-heading">Suggest an artist</h1>
+        <p>
+          Who should we feature next? Share an artist and, if you like, tell us
+          what makes them worth discovering.
+        </p>
+        <p class="storage-note">
+          Suggestions are saved in this browser only. They are not sent to
+          Tunely or added to the artist catalog.
+        </p>
+
+        <form class="suggestion-form" id="suggestionForm">
+          <label for="artistName"
+            >Artist name <span aria-hidden="true">*</span></label
+          >
+          <input
+            id="artistName"
+            name="artistName"
+            type="text"
+            maxlength="100"
+            autocomplete="off"
+            required
+          />
+
+          <label for="artistGenre"
+            >Genre or style <span>(optional)</span></label
+          >
+          <input
+            id="artistGenre"
+            name="artistGenre"
+            type="text"
+            maxlength="80"
+            autocomplete="off"
+          />
+
+          <label for="artistReason"
+            >Why do you recommend them? <span>(optional)</span></label
+          >
+          <textarea
+            id="artistReason"
+            name="artistReason"
+            rows="4"
+            maxlength="500"
+          ></textarea>
+
+          <button type="submit" class="random-button">Save suggestion</button>
+        </form>
+        <p
+          id="suggestionStatus"
+          class="form-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+
+        <section class="saved-suggestions" aria-labelledby="saved-heading">
+          <h2 id="saved-heading">Suggestions on this browser</h2>
+          <ul id="suggestionsList" class="suggestions-list"></ul>
+        </section>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <p>
+        &copy; 2026 Tunely. All rights reserved. |
+        <a href="about.html">About</a>
+      </p>
+    </footer>
+  </body>
+</html>

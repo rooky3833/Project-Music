@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tunely</title>
+    <link rel="icon" type="image/png" href="img/tunely-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home-page">
+    <header>
+      <nav>
+        <a href="artist.html">Artists</a>
+        <a href="about.html">About Tunely</a>
+        <a href="suggestions.html">Suggest an artist</a>
+        <a href="reference.html">References</a>
+      </nav>
+    </header>
+    <div class="container">
+      <main class="home-hero">
+        <img src="img/Tunely%20logo.png" alt="Tunely" class="logo-img" />
+
+        <p class="home-kicker">YOUR NEXT LISTEN STARTS HERE</p>
+        <h1>Find your next<br />favorite artist</h1>
+        <p class="home-intro">
+          Explore artist stories, album artwork, and audio previews, all in one
+          place. Search for someone you love or discover someone new.
+        </p>
+        <form class="search" id="artistSearch" role="search">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search artists"
+            aria-label="Search artists"
+            aria-controls="itemList"
+            aria-expanded="false"
+            autocomplete="off"
+          />
+          <button type="submit">Search</button>
+        </form>
+        <ul
+          id="itemList"
+          class="search-results"
+          aria-label="Artist search results"
+          hidden
+        ></ul>
+        <button type="button" class="random-button" id="randomArtist">
+          Surprise me
+        </button>
+        <p class="home-hint">Not sure where to start? Let us pick for you.</p>
+      </main>
+    </div>
+    <section class="home-section home-purpose" aria-labelledby="purpose-heading">
+      <p class="eyebrow">The idea behind Tunely</p>
+      <h2 id="purpose-heading">Why I made this</h2>
+      <p>
+        I created Tunely to make discovering and exploring music simple and
+        enjoyable. I wanted to bring artist profiles, album artwork, and short
+        audio previews together in one place, so it is easier to learn about an
+        artist and hear a little of their music.
+      </p>
+      <p>
+        Whether you already have a favorite in mind or are looking for something
+        new, you can search, browse the artist collection, and explore music at
+        your own pace. The collection keeps growing, and your suggestions can
+        help inspire who gets featured next.
+      </p>
+      <div class="home-purpose-links">
+        <a class="back-link" href="artist.html">Browse all artists</a>
+        <a class="back-link" href="suggestions.html">Suggest an artist</a>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy; 2026 Tunely. All rights reserved. |
+        <a href="about.html">About</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
